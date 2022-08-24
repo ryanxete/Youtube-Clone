@@ -1,0 +1,53 @@
+.commentlist {
+  border: 1px solid whitesmoke;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.eachcomment {
+  padding: 1rem 0 1rem 0;
+}
+
+.commentslist {
+  margin: 3rem 0 1.5rem 1rem;
+}
+
+.commentform span {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.eachcomment p {
+  margin-bottom: 1rem;
+}
+
+.commenttext-label {
+  margin-left: 1rem;
+}
+
+.commenttext {
+  width: 80%;
+  overflow-wrap: break-word;
+}
+
+.commenttext-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commenttext-container p {
+  margin: 0;
+  padding: 0.7rem 0.7rem 0.7rem 0.5rem;
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+  border-left: 1px solid whitesmoke;
+  border-radius: 3px;
+}
+
+.commenttext-container button:hover {
+  transform: scale(1.1);
+}
+
+.likesdislikes-container {
+  width: 15%;
+}

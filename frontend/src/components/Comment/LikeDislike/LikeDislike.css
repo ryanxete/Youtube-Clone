@@ -1,0 +1,61 @@
+.like-dislike-container {
+  display: flex;
+  width: 15%;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.like-dislike-container button {
+  width: 35px;
+  height: 35px;
+  border-style: none;
+}
+
+.like-dislike-container button:hover {
+  border-radius: 5px;
+}
+
+.like-background {
+  display: flex;
+}
+
+.dislike-background {
+  display: flex;
+}
+
+.like-dislike-container img {
+  width: 35px;
+  height: 35px;
+  padding: 0.2rem;
+}
+
+.like-dislike-container p {
+  padding: 0.3rem;
+  margin-left: 0.2rem;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  border-style: none;
+}
+
+.likes-counter {
+  padding: 0;
+  background-color: darkolivegreen;
+  border-radius: 5px;
+}
+
+.dislikes-counter {
+  padding: 0;
+}
+
+.dislikes-counter {
+  padding: 0;
+  background-color: rgb(147, 25, 25);
+  border-radius: 5px;
+}
+
+.dislikes-counter:hover {
+  padding: 0;
+  background-color: rgb(147, 25, 25);
+  border-radius: 5px;
+}

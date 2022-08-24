@@ -1,0 +1,26 @@
+.searchbar-container {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.searchbar {
+  width: 42%;
+  padding: 1rem;
+  border: 4px solid rgb(165, 165, 165);
+}
+
+.searchbar:focus {
+  outline: none !important;
+}
+
+.searchbutton:hover {
+  background-color: darkolivegreen;
+  border: 4px solid rgb(165, 165, 165);
+}
+
+.searchbutton {
+  background-color: white;
+  border: 4px solid rgb(165, 165, 165);
+  color: darkolivegreen;
+}

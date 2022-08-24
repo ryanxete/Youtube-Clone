@@ -1,0 +1,58 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.welcome span {
+  font-size: 26px;
+  margin-left: 5px;
+  font-weight: 800;
+}
+
+.singlevid {
+  margin: auto;
+  padding: 1.5rem;
+  width: 30%;
+}
+
+.singlevid img {
+  border: 5px solid rgb(165, 165, 165);
+  box-shadow: 6px 6px 12px black;
+}
+
+.singlevid img:hover {
+  border: 5px solid darkolivegreen;
+}
+
+.vid-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.vidtitle {
+  font-size: 18px;
+  width: 100%;
+  height: 4rem;
+  font-weight: 400;
+  color: white;
+}

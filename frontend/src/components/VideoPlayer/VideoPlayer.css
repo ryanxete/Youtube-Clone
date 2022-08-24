@@ -1,0 +1,22 @@
+.title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.snippet {
+  border-bottom: 0.5px solid whitesmoke;
+  padding: 1rem;
+}
+
+.discription {
+  font-size: 16px;
+  height: 8rem;
+  overflow: overlay;
+  padding: 1rem 1rem 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.iframe {
+  box-shadow: 6px 6px 12px black;
+  margin-top: 2rem;
+}
